@@ -1,0 +1,38 @@
+.LikeButton {
+	position: absolute;
+    margin: 15px;
+    z-index: 2;
+    
+    .css-1ww2ouu-MuiButtonBase-root-MuiChip-root:hover , .css-18go8k8:hover  {
+        background-color: rgb(243, 243, 243) !important;
+    }
+    .css-1ww2ouu-MuiButtonBase-root-MuiChip-root, .css-18go8k8 {
+        border-radius: 25px !important;
+        border: none !important;
+        background-color: rgb(243, 243, 243);
+        padding: 15px 10px !important;
+        color: gray;
+
+
+
+        .css-1ww2ouu-MuiButtonBase-root-MuiChip-root, .MuiChip-iconSmall {
+            color: rgb(176, 176, 176) ;
+        }
+    }
+    .liked {
+        color: rgb(37, 37, 37) !important;
+        background-color: rgb(255, 224, 229);
+
+        .css-1ww2ouu-MuiButtonBase-root-MuiChip-root, .css-18go8k8, .MuiChip-iconSmall {
+
+        color: rgb(255, 94, 94) !important;
+        }
+    }
+    .liked:hover {
+        color: rgb(37, 37, 37) !important;
+        background-color: rgb(255, 224, 229) !important;
+    }
+}
+
+
+

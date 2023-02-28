@@ -1,0 +1,172 @@
+
+// .AddVacation{
+//     max-width: 100px;
+// }
+
+// .errors_div{
+//   position: absolute;
+//   display: flex;
+//   text-align: start;
+//   width: 78%;
+//   spa  n {
+//       // position: absolute;
+//       top: 38px;
+//       font-size: 14px;
+//       // width: 100%;
+//       position: absolute;
+//       color: red;
+//   }
+// }
+
+.css-8xaakb-JoySheet-root-JoyModalDialog-root, .css-fvjiyt {
+  max-height: 80vh;
+  overflow-y: auto;
+  max-width: 160px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+  cursor: pointer;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(143, 143, 143, 0.95);
+  border-radius: 40px;
+  
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+// .css-8xaakb-JoySheet-root-JoyModalDialog-root{
+//     max-width: 160px !important;
+// }
+
+.css-1pn0x1a-JoyTextarea-root, .css-6aisd5 {
+  border: 1px solid rgb(185, 185, 185) !important;
+}
+.css-1pn0x1a-JoyTextarea-root:hover, .css-6aisd5:hover  {
+
+  border: 1px solid black !important;
+}  // border: 1px solid black !important;
+
+.image_upload_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    // align-items: center;
+    position: relative;
+    
+}
+.image_upload_container_drag{
+  border: 2px dashed  gray !important;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  position: relative;
+  
+}
+#select_image {
+    position:absolute;
+    top: 40%;
+    left: 22%;
+    z-index: 3;
+    background-color: #7e9eb0;
+    border-radius: 5px;
+    padding: 5px 20px;
+    opacity: 0.94;
+    color: white;
+}
+#cover_image{
+    color: gray;
+    text-align: left;
+}
+#upload_input{
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:50px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+
+}
+    #image_upload {
+        width: 100%;
+        border: 1px solid lightgray;
+        padding: 10% 30% ;
+
+    }
+
+
+    .uploaded_image{
+      width: auto;
+      object-fit: cover;
+      height: 130px;
+    }
+
+    .submit_button_add {
+      padding: 10px !important;
+    }
+    .cancel_button_add {
+      padding: 2px !important;
+      color: black !important;
+      background-color: transparent !important; 
+      border: 1px solid gray !important;
+    }
+/* CSS */
+.AddVacationButton {
+  align-items: center;
+  appearance: none;
+  width: 240px;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  height: 52px !important;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding: 20px 25px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.AddVacationButton:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.AddVacationButton:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+  background-color: rgb(126, 192, 218) !important;
+
+}
+
+.AddVacationButton:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}

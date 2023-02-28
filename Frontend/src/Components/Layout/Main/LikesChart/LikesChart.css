@@ -1,0 +1,74 @@
+
+.LikesChart {
+	width: 80%;
+    display: flex;
+    margin: 50px auto;
+}
+
+.LikesChartContainer{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+
+.not_allowed_text{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    margin: 100px auto;
+}
+
+
+
+/* CSS */
+.LikesChartContainer button {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.LikesChartContainer button:focus {
+  color: #171e29;
+}
+
+.LikesChartContainer button:hover {
+  border-color: lightpink;
+  color: black;
+  fill: lightpink;
+}
+
+.LikesChartContainer button:active {
+  border-color: lightpink;
+  color: black;
+  fill: lightpink;
+}
+
+@media (min-width: 768px) {
+  .LikesChartContainer button {
+    min-width: 170px;
+  }
+}

@@ -1,0 +1,129 @@
+
+.Login_Container{
+    padding-top: 100px !important;
+    
+
+    .errors_div{
+        position: relative;
+        display: flex;
+        width: 78%;
+        text-align: start;
+        
+        span {
+            // position: absolute;
+            top: -24px;
+            font-size: 14px;
+            width: 100%;
+            position: absolute;
+            color: red;
+        }
+    }
+    
+    .Login {
+    display: flex;
+    width: 55%;
+    margin: auto ;
+    height: 70vh;
+    // justify-content: center;
+    .invalid_aria {
+        border: 1px solid red !important;
+    }
+     > div {
+        width: 50% ; 
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 0 40px 40px 0;
+        // margin: auto;
+
+        // .form_container {
+            box-shadow: -9px -1px 11px -6px rgba(0,0,0,0.6);
+            -webkit-box-shadow: -9px -1px 11px -6px rgba(0,0,0,0.6);
+            -moz-box-shadow: -9px -1px 11px -6px rgba(0,0,0,0.6);
+        // }
+    
+        form {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            input {
+                border: none;
+                outline: 1px solid rgb(185, 185, 185);
+                border-radius: 2px;
+                padding: 15px;
+                margin-bottom: 30px;
+                width: 80%;
+                font-size: 16px ;
+
+            }
+         
+
+            .logo_login_form {
+                width: 85%;
+                img {
+                    width: 250px;
+                }
+            }
+
+            .signIn_text_form {
+                font-size: 20px;
+                font-weight: 500;
+                margin-bottom: 30px;
+                margin-top: 10px;
+            }
+
+            button {
+                width: 80%;
+                padding: 15px;
+                border: none;
+                background-color: rgb(46, 46, 46);
+                color: white;
+                font-weight: 750;
+                border-radius: 6px;
+                cursor: pointer;
+                box-shadow: 0px 5px 13px -4px rgba(46,46,46,0.75);
+                -webkit-box-shadow: 0px 5px 13px -4px rgba(46,46,46,0.75);
+                -moz-box-shadow: 0px 5px 13px -4px rgba(46,46,46,0.75);
+                
+            }
+            button:hover {
+                transition: 0.2s;
+                background-color: rgb(18, 18, 18);
+                box-shadow: 0px 5px 7px -1px rgba(102, 102, 102, 0.75);
+                -webkit-box-shadow: 0px 5px 7px -1px  rgba(102, 102, 102, 0.75);
+                -moz-box-shadow: 0px 5px 7px -1px  rgba(102, 102, 102, 0.75);
+            }
+
+            .link_to_register_in_login_form{
+                margin-top: 40px;
+                text-decoration: none;
+                color: rgb(28, 28, 28);
+                
+            }
+            .link_to_register_in_login_form:hover {
+                text-decoration: underline;
+            }
+
+            .terms_login_form {
+                margin-top: 60px;
+                color: gray;
+                font-size: 12px;
+            }
+        }
+    }
+    .vacation_image_login {
+        background-color: transparent;
+        box-shadow: none;
+        img{
+            border-radius: 40px 0 0 40px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+}

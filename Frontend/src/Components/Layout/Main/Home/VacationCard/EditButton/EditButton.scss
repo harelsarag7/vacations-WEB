@@ -1,0 +1,68 @@
+.css-azw5y5-JoyModal-backdrop, .css-15pvwwa {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.cancel_button_edit {
+    padding: 2px !important;
+    height: 20px!important;
+    color: black !important;
+    background-color: transparent !important; 
+    border: 1px solid gray !important;
+  }
+
+  .image_upload_container_drag{
+    border: 2px dashed  gray !important;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    position: relative;
+    
+}
+.uploaded_image{
+    width: auto;
+    object-fit: cover;
+    height: 130px;
+  }
+
+.EditButton {
+	position: absolute;
+    margin: 15px;
+    z-index: 2;
+    width: 80px;
+
+
+    .EditButton:hover {
+        background-color: rgb(243, 243, 243) !important;
+        // background-color: red !important;
+    }
+    
+    .EditButton {
+        border-radius: 25px;
+        border: none;
+        background-color: rgb(243, 243, 243);
+        padding: 15px 3px !important;
+        color: gray;
+
+
+
+        .css-1ww2ouu-MuiButtonBase-root-MuiChip-root, .MuiChip-iconSmall {
+            color: rgb(176, 176, 176) ;
+        }
+    }
+    .liked {
+        color: rgb(37, 37, 37) !important;
+        background-color: rgb(255, 224, 229);
+
+        .css-1ww2ouu-MuiButtonBase-root-MuiChip-root, .MuiChip-iconSmall {
+
+        color: rgb(255, 94, 94) !important;
+        }
+    }
+    .liked:hover {
+        color: rgb(37, 37, 37) !important;
+        background-color: rgb(255, 224, 229) !important;
+    }
+}
+
+
+
